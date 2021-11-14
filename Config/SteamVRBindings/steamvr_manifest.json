@@ -164,14 +164,6 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/RotateRight",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/RotateLeft",
-			"type": "boolean"
-		},
-		{
 			"name": "/actions/main/in/TeleportDirectionUp axis",
 			"type": "vector1"
 		},
@@ -448,8 +440,6 @@
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/RotateRight": "RotateRight",
-			"/actions/main/in/RotateLeft": "RotateLeft",
 			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
 			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
 			"/actions/main/in/MotionControllerThumbLeft_Y axis": "MotionControllerThumbLeft_Y",

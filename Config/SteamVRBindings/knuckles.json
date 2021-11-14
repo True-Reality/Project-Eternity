@@ -30,6 +30,29 @@
 						"north":
 						{
 							"output": "/actions/main/in/TeleportRight"
+						},
+						"south":
+						{
+							"output": "/actions/main/in/TeleportRight"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/thumbstick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/TeleportRight"
+						},
+						"east":
+						{
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},
