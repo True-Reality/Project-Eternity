@@ -8,8 +8,8 @@
 		{
 			"sources": [
 				{
-					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
+					"mode": "button",
+					"path": "/user/hand/right/input/application_menu",
 					"inputs":
 					{
 						"click":
@@ -59,6 +59,36 @@
 						"click":
 						{
 							"output": "/actions/main/in/GrabRight"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"east":
+						{
+							"output": "/actions/main/in/RotateRight"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/RotateLeft"
 						}
 					}
 				},
