@@ -176,6 +176,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/TriggerLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TriggerRight",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/TeleportDirectionUp axis",
 			"type": "vector1"
 		},
@@ -455,6 +463,8 @@
 			"/actions/main/in/RotateRight": "RotateRight",
 			"/actions/main/in/RotateLeft": "RotateLeft",
 			"/actions/main/in/Select": "Select",
+			"/actions/main/in/TriggerLeft": "TriggerLeft",
+			"/actions/main/in/TriggerRight": "TriggerRight",
 			"/actions/main/in/TeleportDirectionUp axis": "TeleportDirectionUp",
 			"/actions/main/in/TeleportDirectionRight axis": "TeleportDirectionRight",
 			"/actions/main/in/MotionControllerThumbLeft_Y axis": "MotionControllerThumbLeft_Y",
