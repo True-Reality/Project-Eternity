@@ -45,17 +45,6 @@
 					}
 				},
 				{
-					"mode": "button",
-					"path": "/user/hand/left/input/x",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TeleportLeft"
-						}
-					}
-				},
-				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
@@ -159,6 +148,17 @@
 						"click":
 						{
 							"output": "/actions/main/in/TriggerRight"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/OpenMenu"
 						}
 					}
 				},
