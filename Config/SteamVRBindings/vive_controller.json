@@ -79,6 +79,21 @@
 				},
 				{
 					"mode": "dpad",
+					"path": "/user/hand/right/input/trackpad",
+					"parameters":
+					{
+						"sub_mode": "click"
+					},
+					"inputs":
+					{
+						"west":
+						{
+							"output": "/actions/main/in/RotateLeft"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
 					"path": "/user/hand/left/input/trackpad",
 					"parameters":
 					{
